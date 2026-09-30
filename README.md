@@ -1,16 +1,14 @@
-# 🏦 Loan Approval Prediction Using Machine Learning in Snowflake
+#  Loan Approval Prediction Using Machine Learning in Snowflake
 
-## 📌 Project Overview
+##  Project Overview
 
-This project implements an end-to-end Machine Learning system for predicting whether a loan application will be approved or rejected.
+This project is an end-to-end Machine Learning pipeline that predicts whether a loan application will be approved or rejected. 
 
-The project uses **Snowflake** for data storage, data cleaning, exploratory data analysis, feature engineering, machine learning model training, evaluation, and prediction.
-
-A **Streamlit application deployed in Snowflake** provides an interactive interface where users can enter applicant information and receive a predicted loan approval result with an approval probability.
+It leverages **Snowflake** for the entire data lifecycle—including storage, cleaning, exploratory data analysis (EDA), feature engineering, and model training. To make predictions accessible, an interactive **Streamlit application** is deployed directly in Snowflake, allowing users to input applicant details and instantly receive an approval probability.
 
 ---
 
-## 🎯 Problem Statement
+##  Problem Statement
 
 Loan approval decisions depend on several applicant characteristics such as income, loan amount, credit history, education, marital status, dependents, employment status, and property area.
 
@@ -23,7 +21,7 @@ The objective of this project is to build a **Binary Classification** model that
 
 ---
 
-## 🧠 Machine Learning Problem
+##  Machine Learning Problem
 
 **Problem Type:** Binary Classification
 
@@ -37,7 +35,7 @@ The model is created using Snowflake's native Machine Learning functionality.
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 The dataset contains **381 loan applications**.
 
@@ -61,7 +59,7 @@ The dataset contains **381 loan applications**.
 
 ---
 
-## 🏗️ Project Architecture
+##  Project Architecture
 
 ```text
 Loan Dataset
